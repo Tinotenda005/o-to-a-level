@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title_message"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/subject_mathematics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/mathematics"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/english"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_physics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/physics"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_geography"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/geography"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/history"
+                android:onClick="selectItem"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_chemistry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/chemistry"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_intergratedscience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/integrated_science"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_accounts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/accounts"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_biology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/biology"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_shona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/shona"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/subject_commerce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="selectItem"
+                android:text="@string/commerce"
+                android:textSize="24sp" />
+
+
+
+            <Button
+                android:id="@+id/buttonsubmit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/submit"
+                android:onClick="finalSelection"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:id="@+id/final_result"
+                android:text="HelloWorld"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

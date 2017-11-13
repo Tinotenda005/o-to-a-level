@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">O\"toA\"level</string>
+    <string name="title_message">Select Subjects</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="english">English</string>
+    <string name="physics">Physics</string>
+    <string name="geography">Geography</string>
+    <string name="history">History</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="integrated_science">Integrated Science</string>
+    <string name="accounts">Accounts</string>
+    <string name="biology">Biology</string>
+    <string name="shona">Shona</string>
+    <string name="commerce">Commerce</string>
+    <string name="computers">Computers</string>
+    <string name="submit">Submit</string>
+
+</resources>
